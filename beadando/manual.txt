@@ -1,0 +1,24 @@
+This is a manual for the Operation Systems I task. It's purpose is to help
+with the use of this script's flags.
+
+-a: This is going to give you back all the distillery names exists in this
+    API. Whith the help of this you can easily get a distillery's "slug"
+    property because it's same as it's name it is just in lowercase.
+
+
+-d: This flag will give you back the history of the desired distillery with
+    the help of the 'slug' parameter.
+    E.g.: bash beadando.sh -d yamazaki
+    With this you can save the result to a txt file in a human friendly 
+    table format.
+
+-h: This is the help flag.
+
+-w: This flag is going to give you back the desired  distillery's highest or
+    smallest amount of a winning bid with it's date. It takes 2 parameters
+    in between "x y"--->min/max
+		|
+		|
+    the slug of the distillery
+ 
+    E.g.: bash beadando.sh -w "yamazaki min " 
